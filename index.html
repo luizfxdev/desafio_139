@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Mistério dos Números Mágicos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>O Mistério dos Números Mágicos</h1>
+        <p class="subtitle">No reino de Cesárea, descubra o n-ésimo número da sequência mágica!</p>
+        
+        <div class="input-group">
+            <label for="numberA">Número A:</label>
+            <input type="number" id="numberA" min="0" value="9">
+        </div>
+        
+        <div class="input-group">
+            <label for="numberB">Número B:</label>
+            <input type="number" id="numberB" min="0" value="5">
+        </div>
+        
+        <div class="input-group">
+            <label for="numberN">Posição (n):</label>
+            <input type="number" id="numberN" min="1" max="20" value="4">
+        </div>
+        
+        <div class="button-group">
+            <button class="glow-on-hover" id="decipherBtn">DECIFRAR</button>
+            <button class="glow-on-hover" id="returnBtn">RETORNAR</button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result"></div>
+            <div id="calculation"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
