@@ -47,13 +47,6 @@ CSS3 (com animações e efeitos especiais)
 
 JavaScript (ES6)
 
-🚀 Como Executar
-Clone o repositório:
-
-bash
-git clone https://github.com/seu-usuario/numeros-magicos-cesarea.git
-Abra o arquivo index.html no seu navegador favorito
-
 🌟 Personalização
 Você pode facilmente personalizar:
 
